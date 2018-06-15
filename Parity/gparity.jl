@@ -127,7 +127,7 @@ function SetEvenParity()
     val |= @Bit8
   end
 # 垂直パリティを追加
-  write(fp1, val)i
+  write(fp1, val)
   close(fp)
   close(fp1)
   return 0

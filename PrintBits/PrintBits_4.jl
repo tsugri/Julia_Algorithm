@@ -11,17 +11,17 @@ ope = Operand(0x7b)
 Bitser(ope.operand1,sizeof(ope.operand1))
 
 ope.operand1 >>= 1
-println("operand1 >>= 1の結果\n")
+println("operand1 >>= 1の結果")
 Bitser(ope.operand1,sizeof(ope.operand1))
 
 ope.operand1 <<= 1
-println("operand1 <<= 1の結果\n")
+println("operand1 <<= 1の結果")
 Bitser(ope.operand1,sizeof(ope.operand1))
 
 ope.operand1 <<= 1
-println("operand1 <<= 1の結果\n")
+println("operand1 <<= 1の結果")
 Bitser(ope.operand1,sizeof(ope.operand1))
 
 ope.operand1 >>= 1
-println("operand1 >>= 1の結果\n")
+println("operand1 >>= 1の結果")
 Bitser(ope.operand1,sizeof(ope.operand1))

@@ -15,7 +15,7 @@ function Bitser(val::UInt32,size)
     array = Array(Char,(@STRSIZE32) + 1)
     tester::UInt32 = 1
     tester <<= (size * 8) -1
-    print("$val\n = ")
+    println("$val")
     while tester != 0
         if val & tester != 0
             array[i] = 'I'
@@ -36,7 +36,7 @@ function Bitser(val::UInt8,size)
     array = Array(Char,(@STRSIZE8) + 1)
     tester::UInt32 = 1
     tester <<= (size * 8) -1
-    print("$val\n = ")
+    println("$val")
     while tester != 0
         if val & tester != 0
             array[i] = 'I'
